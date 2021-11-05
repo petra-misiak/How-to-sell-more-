@@ -305,8 +305,6 @@ p.web-container__banner-bottom-2-top-p {
     top: 50px;
 }
 
-.web-container__gallery-box2-img-laptop-romb {
-}
 
 .web-container__gallery-box2-img-laptop-rombRed {
     background-color: #FB3B64;
@@ -919,7 +917,7 @@ input[type=email] {
     font-family: var(--font-open-sans);
     position: relative;
     margin-top: 10px;
-    margin-left: 30px
+    margin-left: 30px;
 }
 
 .label-checkbox1 {

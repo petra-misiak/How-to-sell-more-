@@ -1,13 +1,14 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--Adding files css-->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="main.css">
+
     <!--Font Google Open sans i Raleway-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,229 +16,266 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <title>BestShop</title>
 </head>
+
 <body>
-<div class="web-container">
-    <!--Header-->
-    <header class="web-container__header">
-        <div class="web-container__header-top">
-            <h1 class="web-container__header-top-h1">BestShop</h1>
-            <div class="web-container__header-top-link">
-                <a href="#">WHY US</a>
-                <a href="#">BENEFITS</a>
-                <a href="#">PRICES</a>
-                <a href="#">CONTACT</a>
+    <div class="web-container">
+        <!--Header-->
+        <header class="web-container__header">
+            <div class="web-container__header-top">
+                <h1 class="web-container__header-top-h1">BestShop</h1>
+                <i class="fas fa-bars hamburger"></i>
+                <div class="web-container__header-top-link">
+                    <a href="#">WHY US</a>
+                    <a href="#">BENEFITS</a>
+                    <a href="#">PRICES</a>
+                    <a href="#">CONTACT</a>
+                </div>
             </div>
+            <div class="web-container__header-bottom"></div>
+        </header>
+        <div class="web-container__header-hamburger-mobile">
+            <ul class="menu">
+                <li><a href="#" class="menuItem">WHY US</a></li>
+                <li><a href="#" class="menuItem">BENEFITS</a></li>
+                <li><a href="#" class="menuItem">PRICES</a></li>
+                <li><a href="#" class="menuItem">CONTACT</a></li>
+            </ul>
+            <div class="hamburger-bottom-line"></div>
         </div>
-        <div class="web-container__header-bottom"></div>
-    </header>
-    <!--Title-->
-    <section class="web-container__title">
-        <h2 class="web-container__title-h2">Sell more!</h2>
-        <p class="web-container__title-p">Open shop on our platform and increase your sales</p>
-        <button class="web-container__title-button">Open your shop</button>
-        <img class="web-container__title-image" src="images/assets/background.png" alt="Laptop">
-    </section>
+        <!--Title-->
+        <section class="web-container__title">
+            <h2 class="web-container__title-h2">Sell more!</h2>
+            <p class="web-container__title-p">Open shop on our platform and increase your sales</p>
+            <button class="web-container__title-button">Open your shop</button>
+            <img class="web-container__title-image" src="images/assets/background.png" alt="Laptop">
+        </section>
 
-    <!--Banner-->
-    <section class="web-container__banner">
-        <div class="web-container__banner-top">
-            <h2 class="web-container__banner-top-h2">The most popular sales platform in country</h2>
-        </div>
-        <div class="web-container__banner-bottom">
-            <div class="web-container__banner-bottom-1">
-                <div class="web-container__banner-bottom-1-circle"></div>
-                <img class="web-container__banner-bottom-1-image" src="images/assets/Person.svg" alt="Person">
-                <p class="web-container__banner-bottom-1-top-p banner__p1">100000+</p>
-                <p class="web-container__banner-bottom-1-bottom-p banner__p2">daily entries</p>
+        <!--Banner-->
+        <section class="web-container__banner">
+            <div class="web-container__banner-top">
+                <h2 class="web-container__banner-top-h2">The most popular sales platform in country</h2>
             </div>
-            <div class="web-container__banner-bottom-2">
-                <div class="web-container__banner-bottom-2-circle"></div>
-                <img class="web-container__banner-bottom-2-image" src="images/assets/Eye.svg" alt="Eye">
-                <p class="web-container__banner-bottom-2-top-p banner__p1">2000000+</p>
-                <p class="web-container__banner-bottom-2-bottom-p banner__p2">seen products <br>every day</p>
+            <div class="web-container__banner-bottom">
+                <div class="web-container__banner-bottom-1">
+                    <div class="web-container__banner-bottom-1-circle"></div>
+                    <img class="web-container__banner-bottom-1-image" src="images/assets/Person.svg" alt="Person">
+                    <p class="web-container__banner-bottom-1-top-p banner__p1">100000+</p>
+                    <p class="web-container__banner-bottom-1-bottom-p banner__p2">daily entries</p>
+                </div>
+                <div class="web-container__banner-bottom-2">
+                    <div class="web-container__banner-bottom-2-circle"></div>
+                    <img class="web-container__banner-bottom-2-image" src="images/assets/Eye.svg" alt="Eye">
+                    <p class="web-container__banner-bottom-2-top-p banner__p1">2000000+</p>
+                    <p class="web-container__banner-bottom-2-bottom-p banner__p2">seen products <br>every day</p>
+                </div>
+                <div class="web-container__banner-bottom-3">
+                    <div class="web-container__banner-bottom-3-circle"></div>
+                    <img class="web-container__banner-bottom-3-image" src="images/assets/Catalog.svg" alt="Catalog">
+                    <p class="web-container__banner-bottom-3-top-p banner__p1">10000+</p>
+                    <p class="web-container__banner-bottom-3-bottom-p banner__p2">added posts <br>daily</p>
+                </div>
             </div>
-            <div class="web-container__banner-bottom-3">
-                <div class="web-container__banner-bottom-3-circle"></div>
-                <img class="web-container__banner-bottom-3-image" src="images/assets/Catalog.svg" alt="Catalog">
-                <p class="web-container__banner-bottom-3-top-p banner__p1">10000+</p>
-                <p class="web-container__banner-bottom-3-bottom-p banner__p2">added posts <br>daily</p>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!--Gallery-->
-    <section class="web-container__gallery">
-        <!--First box-->
-        <div class="web-container__gallery-box1">
-            <div class="web-container__gallery-box1e-title">
-                <h2 class="web-container__gallery-box1-title-h2">Be always first</h2>
-                <p class="web-container__gallery-box1-title-p1">Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit,<br>sed do
-                    eiusmod tempor incididunt ut labore et dolore <br>magna aliqua. Ut enim ad minim veniam.</p>
-            </div>
-            <div class="web-container__gallery-box2">
-                <div class="web-container__gallery-box2-laptop">
-                    <img class="web-container__gallery-box2-laptop-img" src="images/assets/Macbook.png" alt="Macbook">
-                    <div class="web-container__gallery-box2-img-laptop-romb">
-                        <div class="web-container__gallery-box2-img-laptop-rombRed"></div>
+        <!--Gallery-->
+        <section class="web-container__gallery">
+            <!--First gallery-->
+            <div class="web-container__gallery-box1">
+                <div class="web-container__gallery-box1-title">
+                    <h2 class="web-container__gallery-box1-title-h2">Be always first</h2>
+                    <p class="web-container__gallery-box1-title-p1">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit,<br>sed do
+                        eiusmod tempor incididunt ut labore et dolore <br>magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+                <div class="web-container__gallery-box2">
+                    <div class="web-container__gallery-box2-laptop">
+                        <img class="web-container__gallery-box2-laptop-img" src="images/assets/Macbook.png"
+                            alt="Macbook">
+                        <div class="web-container__gallery-box2-laptop-romb">
+                            <div class="web-container__gallery-box2-laptop-romb-rombRed"></div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!--Second box-->
-        <div class="web-container__gallery-second">
-            <div class="web-container__left-side">
-                <img class="web-container__left-side__img" src="images/assets/iPhone.png" alt="Iphone">
-                <div class="web-container__left-side__circle"></div>
-            </div>
-            <div class="web-container__right-side">
-                <h2 class="web-container__right-side__title">Your shop is <br>where you are!</h2>
-                <p class="web-container__right-side__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
-                    consequatur corporis, cum
-                    fugit illum in laborum nihil odio odit ratione, rem, suscipit voluptates! Ipsa, molestias, totam.
-                    Dicta explicabo officiis soluta?</p>
-            </div>
-        </div>
-        <!--Third box-->
-        <div class="web-container__gallery-third">
-            <div class="web-container__left-side1">
-                <h2 class="web-container__left-side1__h2">Increase recognition <br>your brand!</h2>
-                <p class="web-container__left-side1__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    <br>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>veniam.</p>
-            </div>
-            <div class="web-container__right-side1">
-                <img class="web-container__right-side1__img1" src="images/assets/Trumpet.png" alt="Trumpet">
-                <div class="web-container__right-side1__square"></div>
-            </div>
-        </div>
-    </section>
-
-    <!--Pricing-->
-    <section class="web-container__pricing">
-        <div class="web-container__pricing-title">
-            <h2 class="web-container__pricing-title-main">Pricing</h2>
-        </div>
-        <div class="web-container__pricing-all">
-            <div class="web-container__pricing-all-basic">
-                <ul class="web-container__pricing-all-basic-list">
-                    <li class="web-container__pricing-all-basic-p1">Basic</li>
-                    <li class="web-container__pricing-all-basic-p2">$0</li>
-                    <li class="web-container__pricing-all-basic-list-p4">
-                        <img src="images/assets/Ckechmark-1.svg" alt="Checkmark"/> &nbsp 100 MB HDD
-                    </li>
-                    <li class="web-container__pricing-all-basic-list-p5">
-                        <img src="images/assets/Ckechmark-1.svg" alt="Checkmark"/> &nbsp 1 Subdomains
-                    </li>
-                    <li class="web-container__pricing-all-basic-list-p6">
-                        <img src="images/assets/Ckechmark-1.svg" alt="Checkmark"/> &nbsp 2 E-mails
-                    </li>
-                    <li class="web-container__pricing-all-basic-list-p7"> &nbsp Two years license</li>
-                    <li class="web-container__pricing-all-basic-list-p8"> &nbsp Full support</li>
-                </ul>
-                <button type="button" class="web-container__pricing-all-basic-btn1">Begin</button>
-            </div>
-            <div class="web-container__pricing-all-professional">
-                <ul class="web-container__pricing-all-professional-list">
-                    <li class="web-container__pricing-all-professional-p1">Professional</li>
-                    <li class="web-container__pricing-all-professional-p2">$25</li>
-                    <li class="web-container__pricing-all-professional-p3">Limited offer</li>
-                    <li class="web-container__pricing-all-professional-list-p4">
-                        <img src="images/assets/Ckechmark-1.svg" alt="Checkmark"/> &nbsp 500 MB HDD
-                    </li>
-                    <li class="web-container__pricing-all-professional-list-p5">
-                        <img src="images/assets/Ckechmark-1.svg" alt="Checkmark"/> &nbsp 2 Subdomains
-                    </li>
-                    <li class="web-container__pricing-all-professional-list-p6">
-                        <img src="images/assets/Ckechmark-1.svg" alt="Checkmark"/> &nbsp 5 E-mails
-                    </li>
-                    <li class="web-container__pricing-all-professional-list-p7">
-                        <img src="images/assets/Ckechmark-1.svg" alt="Checkmark"/> &nbsp One year licence
-                    </li>
-                    <li class="web-container__pricing-all-professional-list-p8"> &nbsp Full support</li>
-                </ul>
-                <button type="button" class="web-container__pricing-all-professional-btn1">Begin</button>
-            </div>
-            <div class="web-container__pricing-all-premium">
-                <ul class="web-container__pricing-all-premium-list">
-                    <li class="web-container__pricing-all-premium-p1">Premium</li>
-                    <li class="web-container__pricing-all-premium-p2">$60</li>
-                    <li class="web-container__pricing-all-premium-p3">Limited offer</li>
-                    <li class="web-container__pricing-all-premium-list-p4">
-                        <img src="images/assets/Ckechmark-1.svg" alt="Checkmark"/> &nbsp 2 GB HDD
-                    </li>
-                    <li class="web-container__pricing-all-premium-list-p5">
-                        <img src="images/assets/Ckechmark-1.svg" alt="Checkmark"/> &nbsp 5 Subdomains
-                    </li>
-                    <li class="web-container__pricing-all-premium-list-p6">
-                        <img src="images/assets/Ckechmark-1.svg" alt="Checkmark"/> &nbsp 20 E-mails
-                    </li>
-                    <li class="web-container__pricing-all-premium-list-p7">
-                        <img src="images/assets/Ckechmark-1.svg" alt="Checkmark"/> &nbsp Two year licence
-                    </li>
-                    <li class="web-container__pricing-all-premium-list-p8">
-                        <img src="images/assets/Ckechmark-1.svg" alt="Checkmark"/> &nbsp Full support
-                    </li>
-                </ul>
-                <button type="button" class="web-container__pricing-all-premium-btn1">Begin</button>
-            </div>
-        </div>
-    </section>
-
-    <!--Form-->
-    <section class="web-container__form">
-        <div class="web-container__form-left">
-            <div class="web-container__form-left-top">
-                <h2 class="web-container__form-left-top-h2">Any questions?</h2>
-                <p class="web-container__form-left-top-p">Leave your email address or call us!</p>
-            </div>
-            <div class="web-container__form-left-bottom">
-                <div class="web-container__form-left-bottom-left">
-                    <img src="images/assets/Mail%20Icon.svg" alt="Mail Icon">
-                    <p>info@bestshop.xyz</p>
+            <!--Second gallery-->
+            <div class="web-container__gallery-second">
+                <div class="web-container__gallery-second-left-side">
+                    <img class="web-container__gallery-second-left-side__img" src="images/assets/iPhone.png"
+                        alt="Iphone">
+                    <div class="web-container__gallery-second-left-side__circle"></div>
                 </div>
-                <div class="web-container__form-left-bottom-right">
-                    <img src="images/assets/Phone%20Icon.svg" alt="Phone">
-                    <p>123 456 789</p>
+                <div class="web-container__gallery-second-right-side">
+                    <h2 class="web-container__gallery-second-right-side__title">Your shop is <br>where you are!</h2>
+                    <p class="web-container__gallery-second-right-side__p">Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Animi
+                        consequatur corporis, cum
+                        fugit illum in laborum nihil odio odit ratione, rem, suscipit voluptates! Ipsa, molestias,
+                        totam.
+                        Dicta explicabo officiis soluta?</p>
                 </div>
             </div>
-        </div>
-        <div class="web-container__form-right">
-            <form>
-                <label for="name">NAME</label>
-                <input type="text" id="name">
-                <label for="email" class="label-email">EMAIL</label>
-                <input type="email" id="email">
-                <label for="checkbox" class="label-checkbox"><input type="checkbox" id="checkbox"
-                                                                    class="label-checkbox1">I hereby give consent
-                    for my personal data included in my application to be processed for the purposes of the
-                    recruitment
-                    process under the European Parliament’s and Council of
-                    the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with
-                    regard
-                    to the processing of personal data and on the free movement of such data, and repealing
-                    Directive
-                    95/46/EC (Data Protection Directive)</label>
-                <input type="submit" value="Send">
-            </form>
-        </div>
+            <!--Third gallery-->
+            <div class="web-container__gallery-third">
+                <div class="web-container__gallery-third-left-side1">
+                    <h2 class="web-container__gallery-third-left-side1__h2">Increase recognition <br>your brand!</h2>
+                    <p class="web-container__gallery-third-left-side1__p">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do
+                        <br>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>veniam.</p>
+                </div>
+                <div class="web-container__gallery-third-right-side1">
+                    <img class="web-container__gallery-third-right-side1__img1" src="images/assets/Trumpet.png"
+                        alt="Trumpet">
+                    <div class="web-container__gallery-third-right-side1__square"></div>
+                </div>
+            </div>
+        </section>
+
+        <!--Pricing-->
+        <section class="web-container__pricing">
+            <div class="web-container__pricing-title">
+                <h2 class="web-container__pricing-title-main">Pricing</h2>
+            </div>
+            <!-- Basic -->
+            <div class="web-container__pricing-all">
+                <div class="web-container__pricing-all-basic">
+                    <ul class="web-container__pricing-all-basic-list">
+                        <li class=list1>
+                            <h3 class="web-container__pricing-all-basic-list-h3">Basic</h3>
+                            <p class="web-container__pricing-all-basic-list-p2">$0</p>
+                        </li>
+                        <li class="list2">
+                            <p class="web-container__pricing-all-basic-list-p4">
+                                <img src="images/assets/Ckechmark-1.svg" alt="Checkmark" /> &nbsp 100 MB HDD
+                            </p>
+                            <p class="web-container__pricing-all-basic-list-p5">
+                                <img src="images/assets/Ckechmark-1.svg" alt="Checkmark" /> &nbsp 1 Subdomains
+                            </p>
+                            <p class="web-container__pricing-all-basic-list-p6">
+                                <img src="images/assets/Ckechmark-1.svg" alt="Checkmark" /> &nbsp 2 E-mails
+                            </p>
+                            <p class="web-container__pricing-all-basic-list-p7"> &nbsp Two years license</p>
+                            <p class="web-container__pricing-all-basic-list-p8"> &nbsp Full support</p>
+                        </li>
+                    </ul>
+                    <button type="button" class="web-container__pricing-all-basic-btn1">Begin</button>
+                </div>
+                <!-- Proffesional -->
+                <div class="web-container__pricing-all-professional">
+                    <ul class="web-container__pricing-all-professional-list">
+                        <li class=list1>
+                            <h3 class="web-container__pricing-all-professional-list-h3">Professional</h3>
+                            <p class="web-container__pricing-all-professional-list-p2">$25</p>
+                            <p class="web-container__pricing-all-professional-list-p3">Limited offer</p>
+                        </li>
+                        <li class="list2">
+                            <p class="web-container__pricing-all-professional-list-p4">
+                                <img src="images/assets/Ckechmark-1.svg" alt="Checkmark" /> &nbsp 500 MB HDD
+                            </p>
+                            <p class="web-container__pricing-all-professional-list-p5">
+                                <img src="images/assets/Ckechmark-1.svg" alt="Checkmark" /> &nbsp 2 Subdomains
+                            </p>
+                            <p class="web-container__pricing-all-professional-list-p6">
+                                <img src="images/assets/Ckechmark-1.svg" alt="Checkmark" /> &nbsp 5 E-mails
+                            </p>
+                            <p class="web-container__pricing-all-professional-list-p7">
+                                <img src="images/assets/Ckechmark-1.svg" alt="Checkmark" /> &nbsp One year licence
+                            </p>
+                            <p class="web-container__pricing-all-professional-list-p8"> &nbsp Full support</p>
+                        </li>
+                    </ul>
+                    <button type="button" class="web-container__pricing-all-professional-btn1">Begin</button>
+                </div>
+                <!-- Premium -->
+                <div class="web-container__pricing-all-premium">
+                    <ul class="web-container__pricing-all-premium-list">
+                        <li>
+                            <h3 class="web-container__pricing-all-premium-list-h3">Premium</h3>
+                            <p class="web-container__pricing-all-premium-list-p2">$60</p>
+                            <p class="web-container__pricing-all-premium-list-p3">Limited offer</p>
+                        </li>
+                        <li class="list2">
+                            <p class="web-container__pricing-all-premium-list-p4">
+                                <img src="images/assets/Ckechmark-1.svg" alt="Checkmark" /> &nbsp 2 GB HDD
+                            </p>
+                            <p class="web-container__pricing-all-premium-list-p5">
+                                <img src="images/assets/Ckechmark-1.svg" alt="Checkmark" /> &nbsp 5 Subdomains
+                            </p>
+                            <p class="web-container__pricing-all-premium-list-p6">
+                                <img src="images/assets/Ckechmark-1.svg" alt="Checkmark" /> &nbsp 20 E-mails
+                            </p>
+                            <p class="web-container__pricing-all-premium-list-p7">
+                                <img src="images/assets/Ckechmark-1.svg" alt="Checkmark" /> &nbsp Two year licence
+                            </p>
+                            <p class="web-container__pricing-all-premium-list-p8">
+                                <img src="images/assets/Ckechmark-1.svg" alt="Checkmark" /> &nbsp Full support
+                        </li>
+                    </ul>
+                    <button type="button" class="web-container__pricing-all-premium-btn1">Begin</button>
+                </div>
+            </div>
+        </section>
+
+        <!--Form-->
+        <section class="web-container__form">
+            <div class="web-container__form-left">
+                <div class="web-container__form-left-top">
+                    <h2 class="web-container__form-left-top-h2">Any questions?</h2>
+                    <p class="web-container__form-left-top-p">Leave your email address or call us!</p>
+                </div>
+                <div class="web-container__form-left-bottom">
+                    <div class="web-container__form-left-bottom-left">
+                        <img src="images/assets/Mail%20Icon.svg" alt="Mail Icon">
+                        <p>info@bestshop.xyz</p>
+                    </div>
+                    <div class="web-container__form-left-bottom-right">
+                        <img src="images/assets/Phone%20Icon.svg" alt="Phone">
+                        <p>123 456 789</p>
+                    </div>
+                </div>
+            </div>
+            <div class="web-container__form-right">
+                <form>
+                    <label for="name">NAME</label>
+                    <input type="text" id="name">
+                    <label for="email" class="label-email">EMAIL</label>
+                    <input type="email" id="email">
+                    <label for="checkbox" class="label-checkbox">
+                        <input type="checkbox" id="checkbox" class="label-checkbox1">I hereby give consent
+                        for my personal data included in my application to be processed for the purposes of the
+                        recruitment
+                        process under the European Parliament’s and Council of
+                        the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with
+                        regard
+                        to the processing of personal data and on the free movement of such data, and repealing
+                        Directive
+                        95/46/EC (Data Protection Directive)
+                    </label>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
 
 
-    </section>
-    <!--Fotter-->
-    <footer class="web-container__footer">
-        <div class="web-container__footer-left-side">
-            <h2 class="web-container__logo">BestShop</h2>
-            <p class="web-container__copyright">&copy 2019 BestShop LTD, All Rights Reserved</p>
-        </div>
-        <div class="web-container__footer-right-side">
-            <img class="web-container__footer-right-side-img" src="images/assets/Twitter.svg" alt="Twitter">
-            <img class="web-container__footer-right-side-img2" src="images/assets/Facebook.svg" alt="Facebook">
-        </div>
-    </footer>
-</div>
+        </section>
+        <!--Fotter-->
+        <footer class="web-container__footer">
+            <div class="web-container__footer-left-side">
+                <h2 class="web-container__footer-left-side-logo">BestShop</h2>
+                <p class="web-container__footer-left-side-copyright">&copy 2019 BestShop LTD, All Rights Reserved</p>
+            </div>
+            <div class="web-container__footer-right-side">
+                <img class="web-container__footer-right-side-img" src="images/assets/Twitter.svg" alt="Twitter">
+                <img class="web-container__footer-right-side-img2" src="images/assets/Facebook.svg" alt="Facebook">
+            </div>
+        </footer>
+    </div>
 
-
+    <script src="app.js"></script>
 </body>
+
 </html>
